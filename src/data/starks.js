@@ -51,7 +51,7 @@ const starks = [
       { 'year': '2011', 'type': 'G', 'city': 'Paris', 'event': 'World Championships', 'category': '-60kg' },
       { 'year': '2012', 'type': 'B', 'city': 'London', 'event': 'Olympic Games', 'category': '-60kg' },
       { 'year': '2015', 'type': 'B', 'city': 'Astana', 'event': 'World Championships', 'category': '-66kg' },
-      { 'year': '2016', 'type': 'B', 'city': 'Rio de Janeiro', 'event': 'Olympic Games', 'category': '-66kg' },
+
     ],
   },
 ];
