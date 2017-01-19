@@ -4,8 +4,8 @@ import Title from "./Header/Title";
 
 export default class Header extends React.Component{
   render(){
-    return{
+    return(
       <Title/>
-    }
+    )
   }
 }

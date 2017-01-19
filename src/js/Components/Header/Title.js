@@ -3,8 +3,8 @@ import React from "react";
 
 export default class Title extends React.Component{
   render(){
-    return{
+    return (
       <h1> Welcome to Starks of Winterfell </h1>
-    }
+    )
   }
 }
