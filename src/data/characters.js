@@ -1,13 +1,13 @@
 "use strict";
 
-const starks = [
+const characters = [
   {
-    'id': 'eddard_stark',
+    'id': 'eddard-stark',
     'name': 'Eddard Stark',
     'origin': 'Winterfell',
     'Portrayed by': 'Sean Bean ',
-    'image': 'driulis-gonzalez.jpg',
-    'cover': 'driulis-gonzalez-cover.jpg',
+    'image': 'eddard-stark.jpg',
+    'cover': 'eddard-stark-cover.jpg',
     'link': 'http://gameofthrones.wikia.com/wiki/Eddard_Stark',
     'medals': [
       { 'year': '1992', 'type': 'B', 'city': 'Barcelona', 'event': 'Olympic Games', 'category': '-57kg' },
@@ -23,8 +23,8 @@ const starks = [
     'name': 'Robb Stark',
     'origin': 'Winterfell',
     'Portrayed by': 'Richard Madden ',
-    'image': 'mark-huizinga.jpg',
-    'cover': 'mark-huizinga-cover.jpg',
+    'image': 'robb-stark.jpg',
+    'cover': 'robb-stark-cover.jpg',
     'link': 'http://gameofthrones.wikia.com/wiki/Robb_Stark',
     'medals': [
       { 'year': '1994', 'type': 'B', 'city': 'Gdansk', 'event': 'European Championships', 'category': '-78kg' },
@@ -37,12 +37,12 @@ const starks = [
     ],
   },
   {
-    'id': 'bran_stark',
+    'id': 'bran-stark',
     'name': 'Bran Stark',
     'origin': 'Winterfell',
     'Portrayed by': 'Isaac Hempstead-Wright ',
-    'image': 'rishod-sobirov.jpg',
-    'cover': 'rishod-sobirov-cover.jpg',
+    'image': 'bran-stark.jpg',
+    'cover': 'bran-stark-cover.jpg',
     'link': 'http://gameofthrones.wikia.com/wiki/Bran_Stark',
     'medals': [
       { 'year': '2007', 'type': 'S', 'city': 'Kuwait City', 'event': 'Asian Championships', 'category': '-60kg' },
@@ -56,4 +56,4 @@ const starks = [
   },
 ];
 
-export default athletes;
+export default characters;
