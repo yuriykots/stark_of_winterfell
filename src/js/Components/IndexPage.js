@@ -1,13 +1,15 @@
 import React from "react";
-
+import CharacterPreview from "./CharacterPreview"
+import characters from "../../data/characters"
 
 export default class IndexPage extends React.Component{
   render() {
-    console.log("hello")
+    {characters.map(character => console.log(character))}
+
 
     return (
     <div>
-    <h1> Our index page, we will render Character Cards here </h1>
+    {characters.map(character => <CharacterPreview  key={character.id} {...character}/>)}
     </div>
     );
   }

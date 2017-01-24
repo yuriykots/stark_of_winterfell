@@ -10,7 +10,7 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Layout}>
-      <Route component={IndexPage}/>
+      <IndexRoute component={IndexPage}/>
       <Route path="/character/:id" component={CharacterPage}/>
     </Route>
   </Router>,
