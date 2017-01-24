@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
+
 
 
 
@@ -9,7 +11,9 @@ export default class Layout extends React.Component{
 
     return (
     <div>
-    <h1> Layout Hallo 22000!!! webpack </h1>
+      <Header/>
+      <div className="app-content">{this.props.children}</div>
+      <Footer/>
     </div>
     );
   }
