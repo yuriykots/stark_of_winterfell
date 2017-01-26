@@ -8,7 +8,7 @@ export default class IndexPage extends React.Component{
 
 
     return (
-    <div>
+    <div className="row">
     {characters.map(character => <CharacterPreview  key={character.id} {...character}/>)}
     </div>
     );

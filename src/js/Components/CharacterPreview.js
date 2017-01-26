@@ -5,16 +5,15 @@ export default class CharacterPreview extends React.Component{
   render(){
 
     return(
-      <div className="character-preview">
+      <div className="character-preview" className="col-md-4">
       <Link to={`/character/${this.props.id}`}>
-
         <h4> {this.props.name} </h4>
-
-        <img className="card-Picture" src={`/img/${this.props.image}`}/>
-</Link>
+          <img className="card-Picture" src={`/img/${this.props.image}`}/>
+        </Link>
       </div>
     )
   }
 }
 
       //    <Link to={`/character/${this.props.id}`}>
+//
