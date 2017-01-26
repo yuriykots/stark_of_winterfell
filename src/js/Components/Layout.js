@@ -2,9 +2,6 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-
-
-
 export default class Layout extends React.Component{
   render() {
     console.log("hello")
@@ -12,9 +9,7 @@ export default class Layout extends React.Component{
     return (
     <div>
       <Header/>
-      <div className="container">
-      <div className="row" >{this.props.children}</div>
-      </div>
+      <div > {this.props.children} </div>
       <Footer/>
     </div>
     );

@@ -54,6 +54,60 @@ const characters = [
 
     ],
   },
+  {
+    'id': 'arya-stark',
+    'name': 'Arya Stark',
+    'origin': 'Winterfell',
+    'portrayed_by': 'Isaac Hempstead-Wright ',
+    'image': 'bran-stark.jpg',
+    'cover': 'bran-stark-cover.jpg',
+    'link': 'http://gameofthrones.wikia.com/wiki/Arya_Stark',
+    'medals': [
+      { 'year': '2007', 'type': 'S', 'city': 'Kuwait City', 'event': 'Asian Championships', 'category': '-60kg' },
+      { 'year': '2008', 'type': 'B', 'city': 'Beijing', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2010', 'type': 'G', 'city': 'Tokyo', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2011', 'type': 'G', 'city': 'Paris', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2012', 'type': 'B', 'city': 'London', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2015', 'type': 'B', 'city': 'Astana', 'event': 'World Championships', 'category': '-66kg' },
+
+    ],
+  },
+  {
+    'id': 'sansa-stark',
+    'name': 'Sansa Stark',
+    'origin': 'Winterfell',
+    'portrayed_by': 'Isaac Hempstead-Wright ',
+    'image': 'bran-stark.jpg',
+    'cover': 'bran-stark-cover.jpg',
+    'link': 'http://gameofthrones.wikia.com/wiki/Sansa_Stark',
+    'medals': [
+      { 'year': '2007', 'type': 'S', 'city': 'Kuwait City', 'event': 'Asian Championships', 'category': '-60kg' },
+      { 'year': '2008', 'type': 'B', 'city': 'Beijing', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2010', 'type': 'G', 'city': 'Tokyo', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2011', 'type': 'G', 'city': 'Paris', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2012', 'type': 'B', 'city': 'London', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2015', 'type': 'B', 'city': 'Astana', 'event': 'World Championships', 'category': '-66kg' },
+
+    ],
+  },
+  {
+    'id': 'rickon-stark',
+    'name': 'Rickon Stark',
+    'origin': 'Winterfell',
+    'portrayed_by': 'Isaac Hempstead-Wright ',
+    'image': 'bran-stark.jpg',
+    'cover': 'bran-stark-cover.jpg',
+    'link': 'http://gameofthrones.wikia.com/wiki/Sansa_Stark',
+    'medals': [
+      { 'year': '2007', 'type': 'S', 'city': 'Kuwait City', 'event': 'Asian Championships', 'category': '-60kg' },
+      { 'year': '2008', 'type': 'B', 'city': 'Beijing', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2010', 'type': 'G', 'city': 'Tokyo', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2011', 'type': 'G', 'city': 'Paris', 'event': 'World Championships', 'category': '-60kg' },
+      { 'year': '2012', 'type': 'B', 'city': 'London', 'event': 'Olympic Games', 'category': '-60kg' },
+      { 'year': '2015', 'type': 'B', 'city': 'Astana', 'event': 'World Championships', 'category': '-66kg' },
+
+    ],
+  },
 ];
 
 export default characters;
