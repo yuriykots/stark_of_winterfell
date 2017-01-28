@@ -7,7 +7,6 @@ var divStyle = {
   "margin-top": "10px"
 }
 
-
 export default class IndexPage extends React.Component{
 
   render() {

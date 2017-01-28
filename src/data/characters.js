@@ -91,7 +91,7 @@ const characters = [
     ],
   },
   {
-    'id': 'rickon-stark',
+    'id': 'rickon-stark ',
     'name': 'Rickon Stark',
     'origin': 'Winterfell',
     'portrayed_by': 'Isaac Hempstead-Wright ',
