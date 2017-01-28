@@ -24,7 +24,7 @@ export default class CharacterPage extends React.Component{
       <div >
         <h2 className="name"> {character.name} </h2>
         <h2 className="name"> Portrated by {character.portrayed_by} </h2>
-        <img className="picture-container" src={`/img/${character.image}`}/>
+        <img className="picture-container" src={character.image}/>
       </div>
     )
   }
