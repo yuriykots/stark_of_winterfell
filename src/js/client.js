@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./Components/Layout";
 import IndexPage from "./Components/IndexPage";
+
 import CharacterPage from "./Components/CharacterPage";
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 
-injectTapEventPlugin();
 
 
 const app = document.getElementById('app');

@@ -1,21 +1,23 @@
-import React from "react";
-import CharacterPreview from "./CharacterPreview"
-import characters from "../../data/characters"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import CharacterGrid from'./CharacterGrid';
 
-var divStyle = {
-  "text-align": "center",
-  "margin-top": "10px"
-}
 
-export default class IndexPage extends React.Component{
 
-  render() {
-    {characters.map(character => console.log(character))}
 
-    return (
-    <div style={divStyle}>
-    {characters.map(character => <CharacterPreview  key={character.id} {...character}/>)}
-    </div>
-    );
-  }
-}
+const IndexPage = () => (
+  <MuiThemeProvider>
+    <CharacterGrid/>
+  </MuiThemeProvider>
+);
+
+export default IndexPage;
+
+
+
+
+
+//<MuiThemeProvider>
+  //<MyAwesomeReactComponent />
+//</MuiThemeProvider>
