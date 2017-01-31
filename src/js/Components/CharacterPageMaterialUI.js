@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import CharacterGrid from'./CharacterGrid';
+import CharacterPage from'./CharacterPage';
 
 
 
 
-const IndexPage = () => (
+const MaterialPageMaterialUI = () => (
   <MuiThemeProvider>
-    <CharacterGrid/>
+    <CharacterPage/>
   </MuiThemeProvider>
 );
 
-export default IndexPage;
+export default MaterialPageMaterialUI;
 
 
 
