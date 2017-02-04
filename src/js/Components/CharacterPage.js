@@ -1,8 +1,21 @@
 import React from "react";
 import characters from "../../data/characters"
 import NotFound from "./NotFound"
+import Paper from 'material-ui/Paper';
+
+const style = {
+  height: 100,
+  width: 100,
+  margin: 20,
+  textAlign: 'center',
+  display: 'inline-block',
+  backgroundImage: '/img/robb-stark.jpg',
+};
+
+const imageStyle = {
 
 
+};
 
 export default class CharacterPage extends React.Component{
   render(){
@@ -21,12 +34,24 @@ export default class CharacterPage extends React.Component{
 
 //    console.log(athletes)
     return(
-      <div >
-        <h2 className="name"> {character.name} </h2>
-        <h2 className="name"> {character.name} </h2>
-        <h2 className="name"> Portrated by {character.portrayed_by} </h2>
-        <img className="picture-container" src={character.image}/>
-      </div>
+      <div>
+
+
+            <div className="characterbox">
+
+              <div className="picture-container">
+              <h4 className="name">{character.name}</h4>
+              </div>
+
+              <div className="text-container">
+                <h4> {character.info} </h4>
+              </div>
+
+            </div>
+    </div>
     )
   }
 }
+
+
+                /// <img src={character.image}/>

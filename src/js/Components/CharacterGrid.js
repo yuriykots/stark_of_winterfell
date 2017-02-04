@@ -10,7 +10,7 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    "margin-top": "3%",
+    "margin-top": "2%",
   },
   gridList: {
     display: 'flex',
@@ -32,7 +32,7 @@ export default class CharacterGrid extends React.Component{
     {characters.map(character => console.log(character))}
     return (
   <div style={styles.root}>
-    <GridList style={styles.gridList}  cellHeight={400} cols={2.5} padding={25}>
+    <GridList style={styles.gridList}  cellHeight={400} cols={2.5} padding={20}>
       {characters.map((character) => (
         <Link to={`/character/` + character.id}>
         <GridTile
