@@ -13,15 +13,18 @@ h4 {
   position: relative;
   width: 100%;
 }
-
-
-html {
-  background: url(/img/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.headerbox {
+  display: flex;
+  justify-content: center;
 }
+
+.footerbox {
+  margin-top: 5%;
+  text-align: center;
+  color: #616161;
+}
+
+
 
 .characterbox {
   border: 1px solid #ccc;

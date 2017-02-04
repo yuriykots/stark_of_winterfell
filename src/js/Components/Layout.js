@@ -12,6 +12,7 @@ export default class Layout extends React.Component{
     <div>
       <Header/>
       <div > {this.props.children} </div>
+      <Footer/>
     </div>
 </MuiThemeProvider>
     );

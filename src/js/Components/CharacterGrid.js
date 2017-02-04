@@ -10,7 +10,7 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    "margin-top": "2%",
+    "margin-top": "3%",
   },
   gridList: {
     display: 'flex',
