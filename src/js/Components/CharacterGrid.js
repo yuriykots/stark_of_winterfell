@@ -19,6 +19,7 @@ const styles = {
   },
   titleStyle: {
      "text-align": "center",
+     "font-family": "Roboto",
    },
 };
 
