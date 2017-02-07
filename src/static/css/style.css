@@ -99,6 +99,16 @@ h4 {
   padding: 2%;
   justify-items: center;
 }
+.box3 {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  margin-bottom: 2.2%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  padding: 2%;
+  justify-items: center;
+}
 
 .box1 img {
   width: 100%;
