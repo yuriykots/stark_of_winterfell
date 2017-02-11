@@ -7,9 +7,10 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Sean Bean ',
     image: '/img/eddard-stark.jpg',
-    cover: 'eddard-stark-cover.jpg',
+    cover: '/img/eddard-stark-cover.jpg',
+    quote: "The man who passes the sentence should swing the sword.",
     link: 'http://gameofthrones.wikia.com/wiki/Eddard_Stark',
-    info: "King Robb Stark is a major character in the first, second, and third seasons. He also appears in flashback form in the sixth season. He is played by starring cast member Richard Madden and debuts in the series premiere. Robb is the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn. He is the brother of Sansa, Arya, Bran, and Rickon Stark, and cousin (believed to be half-brother) of Jon Snow. He also adopts a direwolf named Grey Wind. Robb is declared the King in the North during the War of the Five Kings. Despite his young age, he commands great respect and is notable for never having lost a battle, earning himself the nickname the Young Wolf - after the sigil of his house. He rules the North and the Riverlands until he is murdered at the Red Wedding, alongside his pregnant wife, his mother, and many of his lords' bannermen, by Houses Frey and Bolton."
+    info: "Lord Eddard Stark, also known as Ned Stark, is a major character in the first season. He is played by starring cast member Sean Bean, and debuts in the series premiere. He reappears in flashbacks during the sixth season, played by Sebastian Croft and Robert Aramayo.Eddard was the head of House Stark, the Lord of Winterfell, Lord Paramount and Warden of the North, and later Hand of the King to King Robert I Baratheon. He was the older brother of Benjen, Lyanna and the younger brother of Brandon Stark. He is the father of Robb, Sansa, Arya, Bran and Rickon by his wife, Catelyn Tully, and uncle of Jon Snow, who he raised as his bastard son. He was a dedicated husband and father, a loyal friend and an honorable lord. Eddard's execution and revealing the illegitimacy of Cersei's children was the spark of the War of the Five Kings between Joffrey Baratheon, Robb, Renly Baratheon, Stannis Baratheon and Balon Greyjoy - being posthumously responsible for the involvement of four of the kings in this war."
   },
   {
     id: 'catelyn-stark',
@@ -17,8 +18,10 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Richard Madden ',
     image: '/img/catelyn-stark.jpg',
-    cover: 'robb-stark-cover.jpg',
+    cover: '/img/catelyn-stark-cover.jpg',
+    quote: "Show them how it feels to lose what they love.",
     link: 'http://gameofthrones.wikia.com/wiki/Robb_Stark',
+    info: "Catelyn Stark, née Tully, is a major character in the first, second and third seasons. She is played by starring cast member Michelle Fairley, and debuts in the series premiere. She was played in the unaired pilot by Jennifer Ehle but the role was recast. Catelyn was born into House Tully and married into House Stark. Her husband, Eddard Stark, is the Lord Paramount of the North, and together they have five children: Robb, Sansa, Arya, Bran, and Rickon. Catelyn is a devoted mother and is fiercely protective of her children."
   },
   {
     id: 'robb-stark',
@@ -27,6 +30,7 @@ const characters = [
     portrayed_by: 'Richard Madden ',
     image: '/img/robb-stark.jpg',
     cover: '/img/robb-stark-cover.jpg',
+    quote: "All men should keep their word, kings most of all.",
     link: 'http://gameofthrones.wikia.com/wiki/Robb_Stark',
     info: "King Robb Stark is a major character in the first, second, and third seasons. He also appears in flashback form in the sixth season. He is played by starring cast member Richard Madden and debuts in the series premiere. Robb is the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn. He is the brother of Sansa, Arya, Bran, and Rickon Stark, and cousin (believed to be half-brother) of Jon Snow. He also adopts a direwolf named Grey Wind. Robb is declared the King in the North during the War of the Five Kings. Despite his young age, he commands great respect and is notable for never having lost a battle, earning himself the nickname the Young Wolf - after the sigil of his house. He rules the North and the Riverlands until he is murdered at the Red Wedding, alongside his pregnant wife, his mother, and many of his lords' bannermen, by Houses Frey and Bolton."
   },
@@ -36,7 +40,9 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Richard Madden ',
     image: '/img/john-snow.jpg',
-    cover: 'robb-stark-cover.jpg',
+    cover: '/img/john-snow-cover.jpg',
+    quote: "My father told me big men fall just as quick as little ones, if you put a sword through their hearts",
+    info: "King Jon Snow is a major character in the first, second, third, fourth, fifth, sixth, and seventh seasons. He is played by starring cast member Kit Harington, and debuts in the series premiere. Though presented as the bastard son of Lord Eddard Stark, Jon is actually the son of Lady Lyanna Stark, Eddard's sister, and Rhaegar Targaryen, the Prince of Dragonstone. From infancy, Jon is raised by Eddard as his own alongside his lawful children at Winterfell but his true parentage is kept secret from everyone, including Jon himself. In order to escape his bastard status, Jon joins the Night's Watch and is eventually chosen as Lord Commander. However, his decision to allow thousands of Free Folk safe passage through the Wall alienates many of his black brothers, culminating in a mutiny where Jon is killed but later revived by Melisandre. Freed from his Night's Watch vows, Jon executes the mutineers and joins his cousin, Sansa Stark, in building an army to retake Winterfell from House Bolton. After securing help from a few other Northern Houses and the Vale of Arryn, they successfully retake the castle from Ramsay Bolton, restoring House Stark's dominion over the North with Jon being declared the new King in the North by the Northern Lords.",
     link: 'http://gameofthrones.wikia.com/wiki/Robb_Stark',
   },
   {
@@ -46,6 +52,8 @@ const characters = [
     portrayed_by: 'Isaac Hempstead-Wright ',
     image: '/img/bran-stark.jpg',
     cover: '/img/bran-stark-cover.jpg',
+    quote: "My dreams are different",
+    info: "Prince Brandon Stark, commonly called Bran Stark, is a major character in the first, second, third, fourth, sixth and seventh seasons. He is played by starring cast member Isaac Hempstead-Wright and debuts in the series premiere. He is the fourth child and second son of Eddard and Catelyn Stark. Bran is a warg and currently the new three-eyed raven.",
     link: 'http://gameofthrones.wikia.com/wiki/Bran_Stark',
   },
   {
@@ -54,7 +62,9 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Isaac Hempstead-Wright ',
     image: '/img/sansa-stark.jpg',
-    cover: 'bran-stark-cover.jpg',
+    cover: '/img/sansa-stark-cover.jpg',
+    quote: "I did what I had to do to survive, my lady. But I am a Stark, I will always be a Stark.",
+    info: "Princess Sansa Stark is a major character in the first, second, third, fourth, fifth, sixth and seventh seasons. She is played by starring cast member Sophie Turner, and debuts in the series premiere. Sansa is the eldest daughter of Lord Eddard Stark of Winterfell and his wife Lady Catelyn, sister of Robb, Arya, Bran and Rickon Stark, and half-sister of Jon Snow. She initially starts off as a soppy, slightly petulant girl with a very naive view of the world, but as time goes on and she and her family suffer one cruelty and betrayal after another, she becomes a more hardened and learned individual.",
     link: 'http://gameofthrones.wikia.com/wiki/Sansa_Stark',
   },
   {
@@ -63,7 +73,9 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Isaac Hempstead-Wright ',
     image: '/img/arya-stark.jpg',
-    cover: 'bran-stark-cover.jpg',
+    cover: '/img/arya-stark-cover.jpg',
+    quote: "My name is Arya Stark. I want you to know that... the last thing you're ever going to see is a Stark smiling down at you as you die",
+    info: "Princess Arya Stark is a major character in the first, second, third, fourth, fifth, sixth and seventh seasons. She is played by starring cast member Maisie Williams, and debuts in the series premiere. Arya is the third child and second daughter of Lord Eddard Stark and his wife, Lady Catelyn Stark. She is later trained as a Faceless Man at the House of Black and White in Braavos.",
     link: 'http://gameofthrones.wikia.com/wiki/Arya_Stark',
   },
 
@@ -73,7 +85,9 @@ const characters = [
     origin: 'Winterfell',
     portrayed_by: 'Isaac Hempstead-Wright ',
     image: '/img/rickon-stark.jpg',
-    cover: 'bran-stark-cover.jpg',
+    cover: '/img/rickon-stark-cover.jpg',
+    quote: "I'm coming with you! I'm your brother. I have to protect you!",
+    info: "Rickon was the fifth child and youngest son of Lady Catelyn and Lord Eddard Stark. Eddard is the head of House Stark and Lord Paramount of the North. The North is one of the constituent regions of the Seven Kingdoms and House Stark is one of the Great Houses of the realm. House Stark rule the region from their seat of Winterfell and Eddard also holds the title Lord of Winterfell. He is also the Warden of the North to King Robert Baratheon. Rickon was born and raised at Winterfell. He had two older brothers, Robb and Bran, and two older sisters, Sansa and Arya. He also had an older bastard half-brother, Jon Snow. He is six-years-old when his uncle Lord Jon Arryn, the Hand of the King, mysteriously dies.",
     link: 'http://gameofthrones.wikia.com/wiki/Sansa_Stark',
   },
 ];

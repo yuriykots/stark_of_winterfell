@@ -36,48 +36,20 @@ export default class CharacterPage extends React.Component{
     return(
       <div className="boxcontainer">
 
-            <div className="leftbox">
+                  <div className="box1">
+                  <img src={character.cover}/>
+                  </div>
 
                   <div className="box1">
-                  <img src={character.image}/>
+                  <h2> {character.name} </h2>
+                  <p> "{character.quote}"</p>
                   </div>
 
-                  <div className="box2">
-                  <h2> Eddard Stark </h2>
-                  <p> "The man who passes the sentence should swing the sword." </p>
+                  <div className="box1">
+                  {character.info}
                   </div>
-                  <div className="box2">
-                  <h2> Eddard Stark </h2>
-                  <p> "The man who passes the sentence should swing the sword." </p>
-                  </div>
-                  <div className="box2">
-                  <h2> Eddard Stark </h2>
-                  <p> "The man who passes the sentence should swing the sword." </p>
-                  </div>
-                  <div className="left1">
-                  King Robb Stark is a major character in the first, second, and third seasons. He also appears in flashback form in the sixth season. He is played by starring cast member Richard Madden and debuts in the series premiere. Robb is the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn. He is the brother of Sansa, Arya, Bran, and Rickon Stark, and cousin (believed to be half-brother) of Jon Snow. He also adopts a direwolf named Grey Wind. Robb is declared the King in the North during the War of the Five Kings. Despite his young age, he commands great respect and is notable for never having lost a battle, earning himself the nickname the Young Wolf - after the sigil of his house. He rules the North and the Riverlands until he is murdered at the Red Wedding, alongside his pregnant wife, his mother, and many of his lords' bannermen, by Houses Frey and Bolton.
-                  </div>
-
-                  <div className="left2">
-                  </div>
-
-                  <div className="left3">
-                  </div>
-            </div>
 
       </div>
     )
   }
 }
-/*
-
-                 <img src={character.image}/>
-                <div className="picture-container">
-                <h4 className="name">{character.name}</h4>
-                </div>
-
-                <div className="text-container">
-                  <h4> {character.info} </h4>
-                </div>
-
-                */

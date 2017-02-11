@@ -1,18 +1,4 @@
-h4 {
-  padding: 10px;
-}
 
-
-.character-box {
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  display: inline-block;
-  margin: 0 1em 1em 0;
-  max-width: 400px;
-  padding: 0;
-  position: relative;
-  width: 100%;
-}
 .headerbox {
   display: flex;
   justify-content: center;
@@ -26,72 +12,19 @@ h4 {
 }
 
 .boxcontainer{
-
   display: flex;
   flex-wrap: wrap;
-  margin: 4%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 2%;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   font-family: 'Roboto', sans-serif;
-
-}
-
-.leftbox{
-  width: auto;
-  height: auto;
-  margin-right: 1%;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.rightbox{
-  width: 25%;
-  height: 550px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.left1{
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  margin-bottom: 1%;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  padding: 5%;
-}
-
-.left2{
-  width: 50%;
-  margin-right: 1%;
-  height: 40%;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-}
-.left3{
-  width: 49%;
-  height: 40%;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  align-self: flex-end;
 }
 
 .box1{
   box-sizing: border-box;
-  width: 300px;
-  height: auto;
-  margin-bottom: 2.2%;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  padding: 2%;
-  justify-items: center;
-  margin-right: 1%;
-}
-.box2 {
-  box-sizing: border-box;
-  width: auto;
+  width: 100%;
   height: auto;
   margin-bottom: 2.2%;
   border: 1px solid #ccc;
@@ -99,17 +32,6 @@ h4 {
   padding: 2%;
   justify-items: center;
 }
-.box3 {
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  margin-bottom: 2.2%;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  padding: 2%;
-  justify-items: center;
-}
-
 .box1 img {
   width: 100%;
 }

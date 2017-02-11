@@ -24,18 +24,9 @@ export default class Header extends React.Component{
          label="House Of Starks"
          style={styles.button}
          labelStyle={{fontSize: '35px'}}
-
          />
         </Link>
       </div>
     )
   }
 }
-
-/*
-<AppBar
-  style={styles.bar}
-   title="Family of Stark"
-   iconElementRight={<FlatButton label="HOME" />}
- />
- */
