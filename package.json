@@ -26,7 +26,7 @@
   "devDependencies": {},
   "scripts": {
     "dev": "webpack-dev-server --content-base src/static --inline --hot --history-api-fallback",
-    "start:prod": "npm run build && node /src/server.bundle.js",
+    "start:prod": "npm run build && node /src/server.min.js",
     "build:client": "webpack",
     "build:server": "webpack --config webpack.server.config.js",
     "build": "npm run build:client && npm run build:server"
