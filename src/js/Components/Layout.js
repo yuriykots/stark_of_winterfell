@@ -18,10 +18,3 @@ export default class Layout extends React.Component{
     );
   }
 }
-
-
-
-} else if (props) {
-      // if we got props then we matched a route and can render
-      const markup = renderToString(<RouterContext {...props}/>)
-      res.render('index', { markup });
