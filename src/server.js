@@ -2,6 +2,10 @@ var express = require('express')
 var path = require('path')
 var compression = require('compression')
 import routes from './js/routes'
+import React from 'react'
+import { renderToString } from 'react-dom/server'
+import { match, RouterContext } from 'react-router'
+import NotFound from './js/Components/NotFound';
 
 var app = express()
 
@@ -12,25 +16,29 @@ app.set('views', path.join(__dirname, 'views'));
 // serve our static stuff like index.css
 app.use(express.static(path.join(__dirname, 'static')))
 
-// send all requests to index.html so browserHistory works
-//app.get('/view', function (req, res) {
-  //res.render('index');
-  //res.sendFile(path.join(__dirname, 'static', 'index.html'))
-//})
-
 app.get('*', (req, res) => {
-  // match the routes to the url
   match({ routes: routes, location: req.url }, (err, redirect, props) => {
-    // `RouterContext` is what the `Router` renders. `Router` keeps these
-    // `props` in its state as it listens to `browserHistory`. But on the
-    // server our app is stateless, so we need to use `match` to
-    // get these props before rendering.
-    const markup = renderToString(<RouterContext {...props}/>)
 
-    // dump the HTML into a template, lots of ways to do this, but none are
-    // really influenced by React Router, so we're just using a little
-    // function, `renderPage`
-    res.render('index', { markup });
+              if (err) {
+                // there was an error somewhere during route matching
+                res.status(500).send(err.message)
+              } else if (redirect) {
+                // not shure how to use it. Was in React tutorial.
+                res.redirect(redirect.pathname + redirect.search)
+              } else if (props) {
+                // We get props, it means we matched route. No we can render our tree and pass it as markup
+
+                const markup = renderToString(<RouterContext {...props}/>)
+                res.render('index', { markup });
+              } else {
+                // no errors, no redirect, we just didn't match anything
+                // rendering our notFound component
+
+                res.status(404);
+                const markup = renderToString(<NotFound/>)
+                res.render('index', { markup });
+              }
+
   })
 })
 
